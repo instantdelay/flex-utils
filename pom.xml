@@ -14,6 +14,7 @@
 
    <modules>
       <module>model-utils</module>
+      <module>cursor-utils</module>
    </modules>
 
    <build>

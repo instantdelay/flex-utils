@@ -1,6 +1,8 @@
-/.actionScriptProperties
-/.flexLibProperties
-/.project
-/.settings
-
-/bin
+target
+bin-debug
+.actionScriptProperties
+.flexConfig.xml
+.flexProperties
+.flexLibProperties
+.project
+.settings

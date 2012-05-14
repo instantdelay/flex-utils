@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+   <modelVersion>4.0.0</modelVersion>
+   
+   <groupId>com.instantdelay.flex</groupId>
+   <artifactId>flex-utils-parent</artifactId>
+   <version>0.0.1-SNAPSHOT</version>
+   <packaging>pom</packaging>
+   <name>Flex Utils Parent</name>
+
+   <properties>
+      <flex-version>4.5.1.21328</flex-version>
+   </properties>
+
+   <modules>
+      <module>model-utils</module>
+   </modules>
+
+   <build>
+      <pluginManagement>
+         <plugins>
+            <plugin>
+               <groupId>org.sonatype.flexmojos</groupId>
+               <artifactId>flexmojos-maven-plugin</artifactId>
+               <version>4.2-beta</version>
+            </plugin>
+         </plugins>
+      </pluginManagement>
+   </build>
+
+   <developers>
+      <developer>
+         <name>Spencer Van Hoose</name>
+         <email>spencer@instantdelay.com</email>
+      </developer>
+   </developers>
+</project>
